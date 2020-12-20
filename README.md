@@ -34,3 +34,17 @@ setup() {
   return {};
 }
 ```
+
+- Subsitute for `this.$router` is useRouter from `vue-router` library
+
+```js
+
+import { useRouter } from 'vue-router';
+setup() {
+  const router = useRoute();
+  function helloWorld() {
+    router.push('/products');
+  }
+  return {};
+}
+```
