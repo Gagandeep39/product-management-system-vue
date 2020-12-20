@@ -8,7 +8,7 @@
 
 ## Deployment
 
-- Checkout deployment at <>
+- Checkout deployment at <https://gagandeep39.github.io/product-management-system-vue/>
 
 ## Description
 
