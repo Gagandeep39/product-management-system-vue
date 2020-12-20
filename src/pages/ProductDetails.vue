@@ -7,13 +7,18 @@
 </template>
 
 <script>
-import { ref } from 'vue';
+import { computed, inject } from 'vue';
 
 export default {
-  setup() {
-    const title = ref('');
-    const price = ref(null);
-    const description = ref('');
+  props: ['pid'],
+  setup(props) {
+    const products = inject('products');
+    const selectedProduct = products.value.find((p) => p.id === props.pid);
+    // Computed used to fix call for route from same route
+    const title = computed(() => selectedProduct.title);
+    const price = computed(() => selectedProduct.price);
+    const description = computed(() => selectedProduct.description);
+    description.value = selectedProduct.description;
 
     return { title, price, description };
   },
