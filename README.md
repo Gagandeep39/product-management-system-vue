@@ -1,24 +1,20 @@
-# product-management-system-vue
+# Project Managemet System
 
-## Project setup
-```
-yarn install
-```
+- [Project Managemet System](#project-managemet-system)
+  - [Deployment](#deployment)
+  - [Description](#description)
+  - [Other composition API projects](#other-composition-api-projects)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Deployment
 
-### Compiles and minifies for production
-```
-yarn build
-```
+- Checkout deployment at <>
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Description
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- A Composition API demo
+- Composition API with routing
+
+## Other composition API projects
+
+- Basic demo <https://github.com/Gagandeep39/vue-composition-api-demo>
+- Project Viewver (Advanced) <https://github.com/Gagandeep39/project-viewer-vue>
